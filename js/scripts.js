@@ -212,7 +212,7 @@ $(document).ready(function () {
         e.preventDefault();
         var data = $(this).serialize();
 
-        $('#alert-wrapper').html(alert_markup('info', '<strong>잠시만 기다려주세요!</strong> 처리중입니다...'));
+        $('#alert-wrapper').html(alert_markup('info', '<strong>잠시만 기다려주세요!</strong> 처리중입니다... '));
 
         if (MD5($('#invite_code').val()) !== 'b0e53b10c1f55ede516b240036b88f40'
             && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
